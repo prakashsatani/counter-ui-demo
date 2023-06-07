@@ -1,5 +1,3 @@
-import React from "react";
-
 export const initialState = { count: 0 };
 
 export type ACTIONTYPE = { type: "increment"; payload: number };

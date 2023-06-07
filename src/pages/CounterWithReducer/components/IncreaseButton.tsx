@@ -1,5 +1,4 @@
-import React, { Dispatch } from "react";
-import { ACTIONTYPE } from "../reducer";
+import React from "react";
 
 type IncreaseButtonProps = {
   name: string;

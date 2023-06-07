@@ -9,7 +9,7 @@ const UIDemo: React.FC = () => {
     <div className="ui-demo">
       <div className="card">
         <div className="img-container">
-          <img src="https://picsum.photos//id/1084/536/354" />
+          <img src="https://picsum.photos//id/1084/536/354" alt="banner" />
         </div>
         <div className="info-content">
           <div className="title-content">

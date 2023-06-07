@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.count-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+.ui-demo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.card {
+  height: 135px;
+  width: 500px;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  /* border: 1px solid #efefef; */
+  box-shadow: 2px 3px 12px lightgrey;
+}
+
+.img-container img {
+  aspect-ratio: 1.4;
+  height: 135px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+}
+
+.info-content {
+  padding: 0.75rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.info-content::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: rgb(184 74 203);
+  clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 25% 50%, 0 0);
+  border-radius: 5px;
+  right: -10px;
+}
+/* .info-content::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: #781889;
+  border-radius: 5px;
+  right: -10px;
+} */
+.title-content {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid lightgray;
+  padding-top: 1rem;
+  color: darkslategrey;
+  /* font-size: 1rem; */
+}
+.actions{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.info-icon{
+  border: 1px solid lightgray;
+  padding: 3px 3px 0;
+  border-radius: 6px;
+
+}
